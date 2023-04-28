@@ -19,7 +19,7 @@ public class Brecho {
 		produtos.add(nProg);
 		
 		// Imprime produtos
-		for (int i=0; i<=produtos.size(); i++) {
+		for (int i=0; i<produtos.size(); i++) {
 			System.out.println("Codigo = " + produtos.get(i).getCodigo() + " Nome = " + produtos.get(i).getNome() + " Valor = " + produtos.get(i).getValor());
 		}
 		
