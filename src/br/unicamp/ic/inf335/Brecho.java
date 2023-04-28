@@ -34,7 +34,7 @@ public class Brecho {
 		
 		// Calcula Média
 		Double media = 0.0;
-		int i = 1;
+		int i = 0;
 		while (i<=produtos.size()) {
 			media = produtos.get(i).getValor();
 			i++;
